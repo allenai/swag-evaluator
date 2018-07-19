@@ -1,0 +1,10 @@
+# dev tools
+.envrc
+.python-version
+
+# editors
+*~
+\#*\#
+
+# python
+__pycache__

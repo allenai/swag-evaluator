@@ -1,0 +1,16 @@
+description: Run the evaluator for the SWAG dataset.
+tasks:
+  - spec:
+      blueprint: $SWAG_EVALUATOR
+      resultPath: /results
+      args:
+        - python
+        - evaluate.py
+        - /data/predictions/predictions.csv
+        - /data/labels.csv
+        - /results/metrics.json
+      datasetMounts:
+        - datasetId: $SWAG_PREDICTIONS
+          containerPath: /data/predictions
+        - datasetId: $SWAG_LABELS
+          containerPath: /data/labels.csv

@@ -1,0 +1,7 @@
+# blacklist everything then whitelist as necessary for better security
+**
+
+# whitelist necessary files
+!readme.md
+!evaluate.py
+!requirements.txt

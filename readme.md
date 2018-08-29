@@ -3,7 +3,7 @@ swag-evaluator
 The evaluator for the SWAG dataset in beaker.
 
 This repository holds the code for creating the evaluator for the SWAG
-dataset in beaker that powers the Alexandria leaderboard.
+dataset in beaker that powers the SWAG leaderboard.
 
 
 Development

@@ -2,8 +2,9 @@ swag-evaluator
 ==============
 The evaluator for the SWAG dataset in beaker.
 
-This repository holds the code for creating the evaluator for the SWAG
-dataset in beaker that powers the SWAG leaderboard.
+This repository contains the code to evaluate a model against the SWAG
+dataset. It is used by Beaker when evaluating submissions to the SWAG
+leaderboard.
 
 
 Development
